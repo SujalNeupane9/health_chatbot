@@ -3,7 +3,7 @@
 # LLama2Chat7B-Finetuning
 
 ## Overview
-This repository contains a Python script that fine-tunes a pre-trained LLama2-7B-Chat model using Lora and PEFT (Post-Training) techniques. The script leverages the power of LLama2-7B-Chat, a state-of-the-art language model, and enhances its capabilities through quantization and other optimizations.
+This repository contains a Python script that fine-tunes a pre-trained LLama2-7B-Chat model using Lora and PEFT (Post-Training) techniques. The script leverages the power of LLama2-7B-Chat, and enhances its capabilities through quantization and other optimizations.
 
 ## Repository Structure
 - **model:** Contains saved checkpoint files of the pre-trained LLama2-7B-Chat model.
@@ -14,7 +14,6 @@ This repository contains a Python script that fine-tunes a pre-trained LLama2-7B
 
 ## Usage
 - **Fine-Tuning:** Run `main.py` to fine-tune the LLama2-7B-Chat model. Ensure necessary dependencies are installed as specified in the README.
-- **Download Model Checkpoint:** Use the provided link to download the pre-trained LLama2-7B-Chat model checkpoint.
 
 ## Getting Started
 1. Clone this repository.
@@ -32,7 +31,7 @@ The script fine-tunes the LLama2-7B-Chat model using the following techniques:
 The script utilizes the `SFTTrainer` class from the `trl` library to train the model with specified hyperparameters.
 
 ## Results and Performance
-The fine-tuned model's performance is evaluated using a provided dataset.
+The fine-tuned model's performance is evaluated using a dataset from HuggingFaceHub.
 
 ## Contributing and Support
 Contributions and support are welcome! Feel free to open an issue or submit a pull request for any questions or assistance.
