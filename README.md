@@ -1,6 +1,5 @@
 # Health_Chatbot
 
-# LLama2Chat7B-Finetuning
 
 ## Overview
 This repository contains a Python script that fine-tunes a pre-trained LLama2-7B-Chat model using Lora and PEFT (Post-Training) techniques. The script leverages the power of LLama2-7B-Chat, and enhances its capabilities through quantization and other optimizations.
